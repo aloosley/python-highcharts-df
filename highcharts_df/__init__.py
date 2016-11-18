@@ -44,7 +44,7 @@ def pplot_from_df(df, kind='line', stock=False, y_axes=None, debug=False, **kwar
         assert (len(y_axes) == df.shape[1]), "y_axes must be list of same length as dataframe columns"
         # Should also assert something about the values in this list... later
 
-    # Create highcharts object:
+    # Create highcharts_df object:
     # (Use height and width if provided):
     if stock:
         hc_visualization = Highstock(**{key: kwargs.pop(key) for key in ['width', 'height'] if key in kwargs})

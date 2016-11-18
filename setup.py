@@ -1,9 +1,9 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='python-highcharts-df',
+    name='python-highcharts_df-df',
     version='0.1.0',
-    description='python-highcharts wrapper for customizable pretty plotting quickly from pandas dataframes',
+    description='python-highcharts_df wrapper for customizable pretty plotting quickly from pandas dataframes',
     author="Alex Loosley",
     author_email='a.loosley@reply.de',
     license='GNU',
